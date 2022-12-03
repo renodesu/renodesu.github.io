@@ -1,5 +1,5 @@
 {
-  "name": "@example/basics",
+  "name": "renodesu.github.io",
   "type": "module",
   "version": "0.0.1",
   "private": true,
@@ -12,5 +12,12 @@
   },
   "dependencies": {
     "astro": "^1.6.12"
+  },
+  "devDependencies": {
+    "@renodesu/eslint-config": "github:renodesu/eslint-config",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.29.0",
+    "eslint-plugin-astro": "^0.21.0",
+    "sass": "^1.56.1"
   }
 }
